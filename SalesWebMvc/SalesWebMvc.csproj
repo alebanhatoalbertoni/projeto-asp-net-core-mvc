@@ -7,16 +7,12 @@
   <ItemGroup>
     <Compile Remove="Models\NovaPasta1\**" />
     <Compile Remove="Models\NovaPasta\**" />
-    <Compile Remove="Views\Departaments\**" />
     <Content Remove="Models\NovaPasta1\**" />
     <Content Remove="Models\NovaPasta\**" />
-    <Content Remove="Views\Departaments\**" />
     <EmbeddedResource Remove="Models\NovaPasta1\**" />
     <EmbeddedResource Remove="Models\NovaPasta\**" />
-    <EmbeddedResource Remove="Views\Departaments\**" />
     <None Remove="Models\NovaPasta1\**" />
     <None Remove="Models\NovaPasta\**" />
-    <None Remove="Views\Departaments\**" />
   </ItemGroup>
 
   <ItemGroup>
