@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-//using SalesWebMvc.Services.Exceptions;
 
 namespace SalesWebMvc.Services
 {
@@ -17,11 +16,10 @@ namespace SalesWebMvc.Services
             _context = context;
         }
 
-
-        public async Task<List<Seller>> FindAllAsync()
+       public List<Seller> FindAll()
         {
-            return await _context.Seller.ToListAsync();
+            return _context.Seller.ToList();
         }
 
-     }
+    }
 }
